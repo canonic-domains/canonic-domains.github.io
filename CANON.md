@@ -56,9 +56,21 @@ SHOP/MED inherits DOMAINS/MED.
 
 ## Constraints
 
-1. DOMAINS = canonical evidence.
-2. SHOP inherits DOMAINS.
-3. DETROS filters DOMAINS.
+1. DOMAINS MUST provide canonical evidence.
+2. SHOP MUST inherit DOMAINS.
+3. DETROS MUST filter DOMAINS.
+4. All ontologies SHOULD use standard schemas.
+5. Updates SHALL track version history.
+
+---
+
+## Evidence
+
+| Claim | Authority | Source |
+|-------|-----------|--------|
+| Medical ontologies | GOLD | SNOMED, ICD, LOINC |
+| Cancer standards | GOLD | mCODE, TNM |
+| Mammography | GOLD | BIRADS, NCCN |
 
 ---
 
